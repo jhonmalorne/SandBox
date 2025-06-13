@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sand Box - Incubadora de Startups</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff6f61, #fddb3a);
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project, .comment-box {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        button {
+            padding: 10px;
+            background: #ff6f61;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #d94e3f;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sand Box</h1>
+        <p>Impulsamos startups en Venezuela con oportunidades de inversión.</p>
+    </header>
+
+    <section id="projects">
+        <h2>Proyectos Postulantes</h2>
+        <div class="project">
+            <h3>Startup 1</h3>
+            <p>Descripción breve del proyecto.</p>
+            <span>Inversión requerida: $10,000</span>
+            <button>Ver detalles</button>
+        </div>
+        <div class="project">
+            <h3>Startup 2</h3>
+            <p>Innovación en tecnología financiera.</p>
+            <span>Inversión requerida: $20,000</span>
+            <button>Ver detalles</button>
+        </div>
+    </section>
+
+    <section id="comments">
+        <h2>Comentarios</h2>
+        <textarea placeholder="Escribe tu comentario..."></textarea>
+        <button>Enviar</button>
+        <div class="comment-box">
+            <p><strong>Usuario 1:</strong> ¡Gran iniciativa!</p>
+        </div>
+        <div class="comment-box">
+            <p><strong>Usuario 2:</strong> Me interesa invertir, ¿cómo puedo hacerlo?</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Sand Box - Conectando Startups con Oportunidades</p>
+    </footer>
+</body>
+</html>
